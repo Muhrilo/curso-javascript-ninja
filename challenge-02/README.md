@@ -73,13 +73,13 @@ Crie uma função com as seguintes características:
 */
 
 function arg(q, w, e) {
-  if (q !== undefined || w === undefined || e === undefined) {
-    return q ;
-  } else if (q !== undefined || w !== undefined || e === undefined) {
-    return (q + w) ;
-  } else {
-    return (q + w / e) ;
-  }
+    if (q !== undefined && w , e === undefined) {
+        return q;
+    } else if (q , w !== undefined && e === undefined) {
+        return (q + w);
+    } else {
+        return (q + w / e);
+    }
 }
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
